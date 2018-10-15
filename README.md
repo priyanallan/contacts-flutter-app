@@ -1,8 +1,8 @@
-# sample_flutter_app
+# contacts_flutter_app
 
-A new Flutter project.
+A new Flutter project which displays Contacts.
 
 ## Getting Started
 
-For help getting started with Flutter, view our online
+For help getting started with Flutter, view online
 [documentation](https://flutter.io/).
