@@ -14,15 +14,15 @@ void main(){
 }
 
 class StatelessCustomWidget extends StatelessWidget {
-  final String appBarTitle;
+  final String _appBarTitle;
 
-  StatelessCustomWidget(this.appBarTitle) : super();
+  StatelessCustomWidget(this._appBarTitle) : super();
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(appBarTitle),
+        title: Text(_appBarTitle),
       ),
       body: Center(
         child: Text('Demo'),
